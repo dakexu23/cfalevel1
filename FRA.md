@@ -30,15 +30,15 @@
 
       Investors may prefer for a positive surprise.
 
-4. Financial reporting quality assessing context
+5. Financial reporting quality assessing context
 
-5. | Specific context       | Typical situations in issuing low quality reports            |
+   | Specific context       | Typical situations in issuing low quality reports            |
    | ---------------------- | ------------------------------------------------------------ |
    | Managers "Motivation"  | 1. Mask poor performance<br />2. Boot the stock price<br />3. Increase personal incentive compensation补偿,career concerns职业生涯考虑.<br />4. Avoid debt covenant violations<br />5. Personal reasons,such as a bonus,or corporate reasons |
    | Opportunity 有机会     | 1. Internal opportunity:e.g. poor internal control<br />2. External opportunity:e.g. divergent accounting policies |
    | Rationalization 合理化 | Justify himsel(herself) 为他辩护                             |
-   
-   Financial reporting quality discipline mechanisms
+
+5.  Financial reporting quality discipline mechanisms
 
    | Mechanism           | Explanation                                                  |
    | ------------------- | ------------------------------------------------------------ |
@@ -378,12 +378,12 @@
 
    1. **Held for use**
 
-      |                 | IFRS                                                         | US GAAP                                       |
-      | --------------- | ------------------------------------------------------------ | --------------------------------------------- |
+      |                 | IFRS                                                                                                                          | US GAAP                                       |
+      |-----------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
       | 判断            | 1. BV > Recovarable amount，要减值可收回金额；<br />2. Higher<br />**Value in use** <br />**NRV = selling price -selling cost** | 1. BV > Undiscounted/Expeced future cash flow |
-      | 减值到          | **recoverable amount**                                       | **fair value**                                |
-      | Impairment loss | Impariment loss = Carrying value - Recoverable amount        | Impariment loss = Carrying value - Fair value |
-      | 转回            | 可以转回，以减值金额为限                                     | 不可以转回                                    |
+      | 减值到          | **recoverable amount**                                                                                                        | **fair value**                                |
+      | Impairment loss | Impariment loss = Carrying value - Recoverable amount                                                                         | Impariment loss = Carrying value - Fair value |
+      | 转回            | 可以转回，以减值金额为限                                                                                                       | 不可以转回                                    |
 
       
 
@@ -433,7 +433,7 @@
    4. Inventory valuation methods
 
       | IFRS                    | GAAP                    |
-      | ----------------------- | ----------------------- |
+      |-------------------------|-------------------------|
       | Specific identification | Specific identification |
       | FIFO                    | FIFO                    |
       | Weighted average cost   | Weighted average cost   |
@@ -457,11 +457,11 @@
 
    **NRV = Selling price - Selling cost**
 
-   |      | IFRS                                                         | GAAP                                                         |
-   | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   |      | The lower of the cost or **net realizable value(NRV)**       | Inv is the lower of the cost or market.                      |
-   | 判断 | If cost >NRV<br />1. Inventory is written down to NRV on B/S；<br />2. A loss is recognized in I/S（COGS↑） | 1. If Replacement cost（重置成本）> NRV<br />**Market = NRV<br />**2. If Replacement cost < NRV - Normal profit margin<br />**Market = NRV - Normal profit margin**<br />3. If NRV - Normal profit margin < Replacement cost < NRV<br />**Market = Replacement cost** |
-   | 转回 | a. Reversal limited to the amout of the original write-down<br />b. Is allowed and a gain is recognized in I/S (COGS↓) | 不能转回                                                     |
+   |      | IFRS                                                                                                                   | GAAP                                                                                                                                                                                                                                                                |
+   |------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |      | The lower of the cost or **net realizable value(NRV)**                                                                 | Inv is the lower of the cost or market.                                                                                                                                                                                                                             |
+   | 判断 | If cost >NRV<br />1. Inventory is written down to NRV on B/S；<br />2. A loss is recognized in I/S（COGS↑）               | 1. If Replacement cost（重置成本）> NRV<br />**Market = NRV<br />**2. If Replacement cost < NRV - Normal profit margin<br />**Market = NRV - Normal profit margin**<br />3. If NRV - Normal profit margin < Replacement cost < NRV<br />**Market = Replacement cost** |
+   | 转回 | a. Reversal limited to the amout of the original write-down<br />b. Is allowed and a gain is recognized in I/S (COGS↓) | 不能转回                                                                                                                                                                                                                                                            |
 
    **Inventory in US GAAP**
 
@@ -518,8 +518,263 @@
 
 1. Analytical Tools and Techniques -Ratios Analysis
     1. Common-size analysis
+       1. Common-size I/S
+          1. Income statement account/Revenue
+       2. Common-size B/S
+          1. B/S ACCOUNT / Total asset
+       3. Common-size C/F
+          1. Cash flow statement account /Revenue
+          2. Cash outflow /Total cash outflow
+          3. Cash inflow /Total cash inflow
     2. Ratio analysis
+       1. Profitability ratio
+          1. Gross profit margin = Gross profit /Net revenue
+          2. Operating profit margin = EBIT /Net revenue
+          3. Pretax margin = EBT / Net revenue
+          4. Net profti margin = NI / Net revenue
+       2. Activity ratio
+          1. ROA = NI / Average total assets(Definition)
+          2. ROA = [NI + Int(1-t)] / Average total assets(For analysis)
+          3. Operating ROA = EBIT / Average total assets
+          4. ROE = NI / Average total equity
+       3. Liquidity ratio(short-term)
+       4. Solvency ratio(long-term)
+       5. Important activity ratios
+          1. Total asset turnover = Revenue / Average total assets
+          2. Fixed asset turnover = Revenue / Average net fixed assets
+          3. Working capital turnover = Revenue/ Average WC
+             1. Working capital = Current assets - Current liabilities
+          4. Receivable turnover（营收账款周转率） = Revenue / Average receivable 越大越好
+          5. Days of sales outstanding(DSO应收账款周转天数) = 365 / Receivalbe turnover 越小越好
+          6. Inventory turnover = COGS / Average inventory 越大越好
+          7. Days of inventory on hand(DOH现有库存天数) = 365 / Inventory turnover 越小越好
+          8. Payable turnover（应付账款周转率） = Purchase / Average trade payable 越小越好
+          9. Number of days of payable(应付天数) = 365 / Payable turnover 越大越好
+
+         **Operating cycle = DOH + DSO**
+         **Cash conversion cycle = DOH + DSO - Num of days of payables**
+
+       6. A firm's ability to meet short-term obligations
+          1. Current Ratio = Current assets/ Current liabilities
+          2. Quick Ratio = (Cash + Short-term marketable security + Receivable)/Current liabilities
+          3. Cash Ratio = (Cash + Short-term marketable security)/Current liabilities
+          4. Defensive interval(防御性资产够用天数) = (Cash + Short-term marketable security + Receivalbe) / Daily cash expenditures
+         7. A firm's ability to pay long-term debt
+            1. D/E = Total debt / Total equity
+            2. D/C = Total debt / (Total debt + Total equity)
+            3. D/A = Average total assets /Average total equity
+            4. <mark>**Financial leverage** = Average total assets/ Average total equity 
+
+         8. Coverage ratio 偿还能力系数
+            1. Interest coverage = EBIT / Interest 
+            2. Fixed charge coverage = (EBIT + Lease payments) / (Interest + Lease payments)
+      1. Dupont system of analysis
+         1. The three-part approach \
+    
+        <mark>$ROE =\frac{Net\ Income}{Revenue}*\frac{Revenue}{Average\ total\ assets}*\frac{Average\ total\ assets}{Average\ equity}$
+         1. The two-part approach \
+        <mark>ROE = ROA * Financial leverage
+         1. The five-part approach \
+        <mark>$ROE = \frac{NI}{EBT}*\frac{EBT}{EBIT}*\frac{EBIT}{Revenue}*\frac{Revenue}{Avg.asset}*\frac{Avg.asset}{Avg.equity}$\
+        Tax burden * Interest burden * EBIT margin * Asset turnover * Leverage ratio \
+        <mark>Tax burden = 1 - Tax rate
+    
 2. Equity Analysis，Credit Analysis and Segment Reporting
+   1. A coompany must disclose separate information about any operating segment which the segment constitutes 10% or more of the company's <mark>revenue,asset,proft
+   2. Segment ratios
+
+## C/F
+
+1. US GAAP
+   1. Cash flow from operating(CFO)
+   2. Cash flow from investing(CFI)
+   3. Cahs flow from financing(CFF)
+   
+1. US GAAP vs IFRS
+   
+   | Items              | GAAP | IFRS           |
+   | ------------------ | ---- | -------------- |
+   | Interest received  | CFO  | CFO or CFI     |
+   | Dividends received | CFO  | CFO or CFI     |
+   | Interest paid      | CFO  | CFO or CFF     |
+   | Dividends paid     | CFF  | CFO or CFF     |
+   | Taxes paid         | CFO  | CFO,CFI or CFF |
+
+## B/S
+
+1. Basic settings
+
+   1. △Cash = △Liability + △Equity - △Non-cash asset
+
+2. CFO calculation(只有在CFO中才区分直接法和间接法)
+
+   1. Direct method（推荐）（Base 法则）
+
+      | Direct method                |                                                              |
+      | ---------------------------- | ------------------------------------------------------------ |
+      | Cash received from customers | A/R beg + Net Sales - Cash received = A/R end                |
+      | -Cash paid to suppliers      | A/R beg + Net Sales - Cash received = A/R end                |
+      | -Cash paid to employees      | Inv.beg + Purchase - COGS = Inv.end <br />A/P beg + Purchase - Cash paid = A/P end |
+      | -Cash paid to employees      | W/P beg + Wage expense - Cash paid = W/P end                 |
+      | -Interest paid               | I/P beg + Interest expense - Cash paid = I/P end             |
+      | -Taxes paid                  | T/P beg + Tax expense - Cash paid = T/P end                  |
+      | = CFO                        |                                                              |
+
+   2. Indirect method（GAAP and IFRS）
+
+      步骤一（调节利润表）：
+
+      | NI                         |
+      | -------------------------- |
+      | +Depreciation/Amortization |
+      | +/- Non operating items    |
+
+      步骤二（调整资产负债表）：
+
+      | -Increase in non-cash current asset accounts（e.g. A/R,Inventory） |
+      | ------------------------------------------------------------ |
+      | +Increase in current liability accounts(e.g. A/P,Tax payable) |
+
+      =CFO
+
+3. CFI calculation
+
+   1. Cash used in purchase of fixed assets
+      1. BV = Cost - A.D
+         1. BV = Book value(carrying value);
+         2. Cost = Original cost
+         3. A.D. = Accumulated depreciation
+      2. $Cost_{end} = Cost_{beg} + Purchase - Disposal Cost $
+      3. $A.D_{end} = A.D_{beg} + Depreciation - Disposal A.D.$
+      4. $BV_{end} = BV_{beg} + Purchase - Disposal\ BV - Depreciation$
+   2. Proceeds received from sale of fixed assets
+      1. $Gain/Loss\ from\ disposal = Cash\ proceeds - Disposal\ BV$
+
+4. CFF Calculation
+
+   1. Divdiend paid
+      1. R/E end = R/E beg + NI - Div. delcared
+      2. Div.payable end = Div.payable beg + Div.declared - Div.paid
+
+5. Analysis of Cash flow
+
+   1. Examine the major sources and uses of cash
+      1. CFO（盈利质量）
+      2. CFI（Increasing capital expenditures is an indication of growth）
+      3. CFF
+         1. The nature of company's capital sources
+         2. Cash requirement for debt repayments,share repurchase,or dividend payments.
+
+   2. Common size cash flow statement
+      1. Cash flow statement account / Revenue
+      2. Cash inflow / Total cash inflows
+      3. Cash outflow / Total cash outflows
+
+   3. FCF
+      1. FCFF
+         1. FCFF = NI + NCC - WC Inv. - FC Inv. + [Int. exp. * (1 - tax rate)]
+         2. FCFF = CFO - FC Inv. +  [Int. exp. * (1 - tax rate)]
+
+      2. FCFE
+         1. FCFE = FCFF - [Int.exp. * (1-tax rate)] + Net debt borrowing
+         2. FCFE = CFO - FC inv. + Net debt borrowing
 
 
+## B/S
+
+1. Assets
+
+   1. Current asset
+   2. Non-current asset
+
+2. Liability
+
+   1. Current liability
+   2. Non-current liability
+
+3. Equity
+
+   1. Capital
+   2. Treasury stock(库存股)
+   3. R/E
+      1. Beg.R/E + NI - Div = End.R/E
+   4. AOCI
+   5. Minority interest
+
+4. Financial assets
+
+   | Items          | HTM<br />AMC   | Trading <br />FVPL | Available-for-sale<br />FOOCI |
+   | -------------- | -------------- | ------------------ | ----------------------------- |
+   | Measurement    | Amortized cost | Fair value         | Fair value                    |
+   | Unrealized G/L | Ignore         | I/S                | OCI                           |
+   | Realized G/L   | I/S            | I/S                | I/S                           |
+
+## I/S
+
+1. Compoents and Format
+
+   Income Statement
+
+   | Net revenue                                                  |
+   | ------------------------------------------------------------ |
+   | - COGS                                                       |
+   | Gross Profit                                                 |
+   | - SG&A                                                       |
+   | Operating income<br />+ Other income or gain<br />(- Other expense or loss) |
+   | EBIT                                                         |
+   | - Interest expense                                           |
+   | EBT                                                          |
+   | - Tax expense                                                |
+   | NI from continuing operations                                |
+   | + Income from discountinued operation (net of tax)           |
+   | NI                                                           |
+
+2. 收入确认
+
+3. EPS
+
+   1. Basic EPS
+
+      $EPS = \frac {NI - Div_{preferred\ stock}}{Weighted\ average\ number\ of\ common\ shares\ outstanding} $
+
+   2. **Diluted EPS 摊薄后每股收益**（计算，重点）
+
+      $Diluted\ EPS = \frac {NI - preferred\ dividends + Conv.debt\ interests(1-t)}{Weighted\ average\ CS. + (CS.\ From\ Conv.PS) + (CS.\ From\ Conv.debt) + (Net CS. from\ options/warrants)}$
+
+4. Analysis
+
+   1. Common size I/S
+   2. Comprehensive income (NI + OCI)
+      1. OCI
+         1. FX translation（外汇换算） G/L
+         2. DB plan actuarial（DB精算假设） G/L
+         3. **Unrealized G/L** from CF hedging(derivatives accounted for as hedges 作为对冲的衍生品)
+         4. Unrealized G/L from  AFS securities
+         5. Revaluation surplus for long-lived asset (IFRS only)
+
+## Financial reporting standards
+
+1. IFRS framework
+   1. IFRS conceptual framework 国际财务报告准则概念框架
+      1. 2 Fundamental characteristics  两个基本特征
+         * Relevance 相关性
+         * Faithful representation 忠实表达
+      2. 4 Enhancing charecteristics 四个增强特征
+         * Comparability 可比较性
+         * Understandability 易懂
+         * Timeliness 及时
+         * Verifiability 可验证
+      3. Constraint 限制、约束
+         * Cost/Benefit consideration 成本/收益效益考虑
+         * Non-quantifiable information 不可量化的信息
+      4. Assumption 假设
+         1. Accrual basis 权责发生制
+         2. Going concern 持续经营
+   2. IASB general requriements 国际会计准则理事会的一般要求
+      1. Required financial statements （四表一附注）
+      2. General features
+         1. No offseting 无偏移
+         2. Classified B/S
+         3. Comparative info
+         4. Reporting frequency
 
