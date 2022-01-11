@@ -121,10 +121,111 @@
 
 ## Fixed-Income Markets: Issuance,Trading and Funding
 1. Market classification
+   1. Classification by type of issuer
+      1. Gov or gov-related sector
+      2. Corporate sector
+      3. Structured finance sector
+   2. Classification by credit quality
+      1. Investment grade bond 投资级
+      2. Non-investment grade bond 非投资级
+   3. Classification by maturity
+      1. Money market security 一年到期或少于一年
+      2. Capital market security 大于一年
+   4. Classification by type of coupon
+      1. Fixed-rate bonds
+      2. Floating-rate bonds
 2. Issuance and Trading
-3. Funding
+   1. Priamary bond market
+      1. Public offering
+         1. Underwritten offering 包销
+            1. Syndicated offering 联合发行
+         2. Best offorts offering 代销
+         3. Auction 拍卖
+         4. Shelf registration(上架注册)
+      2. Private placement 私下募集
+   2. Secondary bond market
+      1. Organized exchange
+      2. OTC markets（Dealers will post bid and ask price）
 
+3. Funding
+   1. Government-related bonds 政府相关债券
+      1. Sovereign bonds
+         1. T-Bills 短期
+         2. T-Notes 中期
+         3. T-Bonds 长期
+      2. Non-sovereign bonds 非主权政府债券（州、省）
+      3. Quasi-government bonds/agency bonds（准政府债券）
+      4. Supranational bonds 超国家债券
+   2. Corporate debts 公司债券
+      1. Bank loans
+         1. Bilateral loan 双边带宽
+         2. Syndicated loan 银团贷款
+      2. Commercial paper 短期票据
+      3. Corprate notes and bonds 公司票据和债券
+         1. Medium-term note(MTN)
+   3. Short-term funding to banks 向银行提供短期资金
+      1. **Retail deposits 零售存款**
+         1. Demand deposits/Checking accounts 活期存款/支票账户
+         2. Saving accounts 储蓄账户
+         3. Money market account 货币市场账户
+      2. **Short-term wholesale funds 短期批发基金**
+         1. Central bank funds
+         2. Interbank funds
+         3. Large-denomination negotiable certificates of deposit 大面额流通存单
+   4. Structured financial instruments 结构性金融工具
+      1. Basic features of structured financial instruments
+      2. **Categories of structured financial instruments**
+         1. Assets-backed securities(ABS) 资产支持债券
+         2. Collateralized debt obligations(CDOs) 抵押债务凭证
+      3. Capital protected instrument 保本工具
+         1. Guarantee certificate 但保证书
+      4. Yield enhancement instruments
+         1. A credit-linked note(CLN)
+      5. Participation instruments
+         1. Floating-rate bond is an example which allow investor to participant in movement of interest rate.
+         2. 不保证本金；
+      6. Leveraged instruments  杠杆性工具
+         1. Inverse floater coupon rate = C - (R*L)
+            1. C: Maximum coupon rate
+            2. R: The reference rate
+            3. L: leverage
+               1. L>1: leveraged inverse floater
+               2. 0<L<1: deleveraged inverse floater
+   5. Repurchase aggreements 回购协议
+      1. Repurchase agreement(Repo)
+      2. A repo can be viewed as a **collateralized loan**.
+      3. Repo rate
+      4. Repo margin/haricut
+      5. Reverse repurchase agreement/Reverse repo逆回购
 ## Fixed-Income Valuation(重点)
+
+1. Pricing bond with a single discount rate
+   1. **Market discount rate** 用于计算PV
+   
+    $P = \displaystyle\sum_{t = 1}^{n} \frac{PMT_t}{(1+r)^t} + \frac{F}{(1+r)^n}$
+
+   2. **Yield-to-maturity(YTM) 到期收益率**
+      1. 关键假设：
+         1. 持有到期
+         2. The issuer makes full and timely coupon and principal payments
+         3. The investor is able to reinvest coupon payment at YTM.
+      * The Internal rate of return on the cash flow
+      * If the market price of bond is known,the valuation equation can be used to calculate its YTM. 
+
+        $P = \displaystyle\sum_{t = 1}^{n} \frac{PMT_t}{(1+YTM)^t} + \frac{F}{(1+YTM)^n}$
+
+       2. Constant-yield price trajectory 恒定收益率轨迹     
+        
+   3. Yield to call
+   4. Matrix pricing
+   5. Yield measures for floating-rate bonds
+2. Pricing bonds with spot rates
+      
+    
+
+
+
+
 ## ABS
 
 ## Understanding FI Risk and Return
