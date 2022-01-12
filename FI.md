@@ -216,19 +216,181 @@
 
        2. Constant-yield price trajectory 恒定收益率轨迹     
         
-   3. Yield to call
-   4. Matrix pricing
+   3. **Yield to call**
+      1. Yield to first call
+      2. Yield to second call
+      3. Yield to worst: the lowest to sequence of yields-to-call and the yield-to-maturity.
+   4. Matrix pricing 相对估值法
+      1. Comparable bonds
+      2. Benchmark rate
+      3. The spread
    5. Yield measures for floating-rate bonds
-2. Pricing bonds with spot rates
-      
-    
+      1. Coupon rate = reference rate +/- quoted margin
+      2. Quoted margin
+      3. Required margin
+2. **Pricing bonds with spot rates**
+   1. Pricing bonds with spot rates 匹配不同的折现率
+   2. Forward rate 
+      1. 定义：the interest rate on a bond or money market instrument traded in a forward market.
+      2. "2y5y" means 'the two year into five-year rate' The first number(2) refers to **when to start the forward contract** and the second number(5) refers to the tenor.
+      3. **Implied forward rates**
 
+         $$(1+S_3)^3 = (1+S_2)^2(1+2Y1Y)$$
+3. Pricing bonds with forward rates
+   $$P = \frac{PMT}{0y1y} + \frac{PMT}{0y1y*1y1y} + \frac{PMT}{0y1y*1y1y*2y1y}$$
+4. Maturity structure of interest rates 利率的期限结构
+    1. Yield curve
+       1. 收益率曲线描绘了相同信用和不同期限的债券的利率。 
+       2. 收益率曲线的三种关键类型包括正常、倒置和平坦。向上倾斜（也称为正常收益率曲线）是指长期债券的收益率高于短期债券。 
+       3. 正常曲线指向经济扩张，向下倾斜（倒置）曲线指向经济衰退。
+    2. Spot curve：A sequence of YTMs on zero-coupon bonds.
+    3. Par curve: a sequence of YTMs such that each bond is priced at par value ,and is obtained from a spot curve.
+    4. Forward curve: a series of forward rates,each having a specific initiation date.
 
+5. Conventions in FI Market
+   1. **Price quotation and calculation**
+      1. Full/Dirty price = Flat/Clean price + Accrued interest(AI)
+      2. $$Full Price = [\frac{PMT}{(1+r)^1 + \frac{PMT}{(1+r)^2}} + ...+ \frac{PMT+F}{(1+r)^n}] * (1+r)^\frac{t}{T}$$
+      3. $$AI = \frac{t}{T} * PMT$$
+   2. Annual yields for varying compounding periods in the year
+      1. $$(1+\frac{APR_m}{m})^m = (1+\frac{APR_n}{n})^n$$
+   3. Consideration of weekends and holidays
+      1. Street convention yield（忽略节假日）
+      2. True yield （按照实际的日期）
+   
+         <b>1. True yield ≥ Street convention yield</b>
 
+   4. Amortization of discount or premium
+      1. **Curren yield**: the sum of the coupon payments received over hte year divided by the flat price.
+      2. **Simpled yield**: the sum of annul coupon payment plus straight-line amortization of discount or premium,divided by the flat price.
+   5. Money market  instruments 货币市场工具
+      1. Discount rates 折扣率
+         1. $$DR = \frac{Year}{Days}*\frac{FV-PV}{FV}$$
+      2. Add-on rates 附加费率
+         1. $$AOR = \frac{Year}{Days} * \frac{FV-PV}{PV}$$
+
+6. Yield Spread
+   1. Yield spread over benchmark
+   2. G-Spread: yield spread overan actual or interpolated **government bond**.
+   3. I-Spread: yield spread of a specific bond over the **standard swap rate in that currency of the same tenor**.
+   4. Zero volatility spread(Z-spread,static spread): **a constant yield spread over a government spot curve**.
+      1. $$PV = \frac{PMT}{(1+z_1 + Z)} + \frac{PMT}{(1+z_2 + Z)^2} + ... + \frac{PMT + FV}{(1+z_N + Z)^N}$$
+   5. Option-adjusted spread(OAS):
+      1. OAS = Z-spread - Option value(%)
 
 ## ABS
+1. ABS
+   1. Securitized asset: assets used to creat ABS,including mortgage loans,automobile loans,and receivalbes.
+2. MBS
+   1. Mortgage-backed security(MBS): securities backed by high-quality real estate mortgages.
+3. Securitization 证券化
+   1. SPV buys the assets and issues ABS,and is a bankruptcy-remote vehicle.
+   2. SPV plays a pivotal role in the securitization process in terms of protecting the rights of creditors investing ABS.
+   3. SPV is called special purpose entity(SPE)，or special purpose company.
+4. Benefits of securitzation
+   1. lower fuding cost of borrowers while enhance the risk-adjusted return of investors
+   2. Allow investors to achieve better legal claims on the underlying。
+   3. Allow investors to access asset classes mathching their risk,return,and maturity profiles that are otherwise not directly available(traching).
+   4. Increase the liquidity of financial asset.
+5. MBS（Mortgage-backed securities）抵押贷款支持证券
+   1. Mortgage loan
+      1. Foreclosure: 丧失抵押品赎回权
+      2. Loan-to-value ratio(LTV): ratio of the amount of the mortgage to the property's value
+         1. 越小越好
+         2. LTV = loan / Value
+      3. Prepayment
+         1. Prepayment option
+         2. Prepayment penalty 提前还款罚金 
+         3. Prepayment risk 提前还款风险
+      4. 追索权
+         1. Recourse loan 追索权贷款
+         2. Non-recourse loan 无追索权贷款
+   2. Residential mortgatge-backed securities(RMBS) 住宅抵押担保证券
+      1. 是否被**guaranteed by a federal agency**
+         1. Agency RMBS: guaranteed by a federal agency
+            1. 贷款质量
+               1. Conforming mortgage
+               2. Non-conforming mortgage
+            2. Mortgage pass-through security(MPS,抵押转手债券)
+               1. **所有产品是通知的，收益和风险相同，不分层；**
+               2. Weighted avearge coupon rate(WAC): weighting the mortgage rate of each mortgage loan in the pool.
+               3. Pass-through rate(net interest,net coupon): the coupon rate that investros receive.
+                  1. WAC - service fee = pass-throught rate 
+               4. Weighted average maturity(WAM): weighting the remaining number of months to maturity for each mortgage loan in the poll.
+            3. Measurement of prepayment rate
+               1. Single montyly mortality(SMM) rate: a montyly measure of prepayment rate.
+                  1. $$SMM = \frac{Prepayment\ for\ month}{Begining\ mortgage\ balance\ for\ month} - Scheduled principal repayment for month$$
+               2. Conditional prepayment rate(CPR):  从年初开始大概有6%的概率可能会被提前还款
+               3. PSA prepayment benchmark
+            4. Weighted average life
+               1. The convention-based average time to receipt of all principal repayments(scheduled principal repayments and projected prepayments)
+            5. Prepayment risk
+               1. 30年loan PSA 预计28年还清
+               2. 26年还清 Contraction risk(紧缩性风险)
+               3. 29年还清 Extention risk（延长性风险）
+               4. 32年还清  default（违约）
+            6. Structuring
+               1. Time tranching 对提前还款风险在做风险
+               2. Credit tranching 对信用风险敞口做再次分配
+               3. “Structuring” can not **eliminate(消除)** risk but **redistribute（重新分配）** risk.
+            7. Collateralized mortgage obligations(CMO,担保抵押质押债券)
+               1. 定义：
+                  1. Securities that redistribute the cash flow of mortgage-related products to various tranches.
+                  2. Backed by mortgage pass-through security(MPS).
+               2. Collateralized mortgage obligations 
+                  1. Sequential-pay tranches
+                  2. Planned amortization class(PAC) tranches
+                  3. Support tranches/companion tranches
+                  4. Floating-rate tranches
+         
+         2. Non-agency RMBS: issued by private entities and are not guaranteed by a federal agency or a GS.
+            1. Internal credit enhancements
+            2. External Credit enhancements
+      
+   3. Commercial mortgage-backed securites(CMBS) 商业抵押贷款支持证券
+      1. 定义：Are backed by a pool of commercial mortgage loand on income producing property.
+      2. 性质：
+         1. non-recourse loans 无追索权 and the lender will face credit risk.
+         2. Measures of credit quality
+            1. Loan-to-value
+            2. Debt service coverage(DSC) ratio = NI/Debt service 越大越好
+         3. CMBS investors have to considerable call protection (like corporate bond)
+         4. CMBS investors may face "balloon risk"
+
+6. Non-mortgage ABS
+   1. 车贷：are backed by auto loan and lease receivables.
+   2. 信用卡应收贷款
+   3. Collateralized debt obligation(CDO,担保债务凭证):
+      1. 需要一个collateral manager to buy and sell debt obligations for and from the CDO portfolio of assets to generate sufficient cash flows.
+      2. Structure of a CDO includes senior,mezzanine,and subordinated/equity bond classes.
 
 ## Understanding FI Risk and Return
+1. Source of return
+   1. Promised **coupon** and **principal payments**
+   2. **Reinvestment of coupon payments**
+   3. **Capital gain or loss **on the sale of bond prior to maturity.
+2. Interest rate risk on fixed-rate bond investment
+   1. 利率影响票息在投资和bond market price
+   2. market price matters more 如果投资者有一个短期的投资期间
+   3. coupon reinvestment risk matters more when the investor has a long-term investment horizon.
+3. Duration
+   有两种类型的债券久期；收益率久期和曲线久期。收益率久期定义为债券价格对其到期收益率的敏感性。另一方面，曲线久期被定义为债券价格对基准收益率曲线（如政府收益率曲线、即期曲线或远期曲线）的敏感性。然而，政府面值曲线是最常用的。收益率久期统计数据是麦考利久期、修正久期、美元久期和基点价格值 (PVBP)。
+   1. Yield duration 收益率久期 
+      1. 定义：**Sensitivity of bond price** to the bond's own YTM.
+      2. Macaulay duration 麦考利久期
+         1. 麦考利久期是投资者通过息票和本金偿还收回投资于债券的资金所花费的时间。它试图衡量投资者从债券的总现金流中收回债券价格所需的年数。
+         2. MacDur is measured in terms of time periods.
+         3. $$MacDur = \frac{\sum_{t=1}^n t * PVCF_t}{\sum PVCF_t}$$
+         4. 对于永续债券：MacDur = (1+r)/r
+         5. 对于零息债券，MacDur = maturity，只有一笔现金流就是他的期限。
+      3. Modified duration
+      4. Money duration
+      5. Price value of a basis point(PVBP)
+   2. Curve duration
+      1. 定义：**Senstivity of bond price to a benchmark yield curve.**
+      2. Effective duration 有效久期
+4. Convexity
+5. Interest rate risk
 
 ## Fundamentals of Credit Analysis
 
