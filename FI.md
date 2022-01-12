@@ -373,7 +373,7 @@
    1. 利率影响票息在投资和bond market price
    2. market price matters more 如果投资者有一个短期的投资期间
    3. coupon reinvestment risk matters more when the investor has a long-term investment horizon.
-3. Duration
+3. **Duration**
    有两种类型的债券久期；收益率久期和曲线久期。收益率久期定义为债券价格对其到期收益率的敏感性。另一方面，曲线久期被定义为债券价格对基准收益率曲线（如政府收益率曲线、即期曲线或远期曲线）的敏感性。然而，政府面值曲线是最常用的。收益率久期统计数据是麦考利久期、修正久期、美元久期和基点价格值 (PVBP)。
    1. Yield duration 收益率久期 
       1. 定义：**Sensitivity of bond price** to the bond's own YTM.
@@ -384,13 +384,102 @@
          4. 对于永续债券：MacDur = (1+r)/r
          5. 对于零息债券，MacDur = maturity，只有一笔现金流就是他的期限。
       3. Modified duration
-      4. Money duration
-      5. Price value of a basis point(PVBP)
-   2. Curve duration
+         1. Modified duration: requires a simple adjustment to Macaulay duration.
+         2. $$ModDur = \frac{MacDur}{1+r}$$
+         3. <b> r: yield per period</b>
+         4. $$\% \Delta Price \approx -ModDur * \Delta Yield $$
+      4. Approximate modified duration
+         1. 近似修正久期: an alternative approach to calculate modified duration.
+         2. $$ApproxModDur = \frac{P_- - P_+}{2*(\Delta Yield) * P_0}$$
+      5. ApproxMacDur = ApproxModDur * (1+r)
+      5. Money duration
+         1. 定义：a measure of the price change in units of currency given a change in its YTM.
+         2. $$MoneyDur = ModDur * Price(full)$$
+         3. **MoneyDur per 100 units of par value = Moddur * Price(Full) of bond per 100 of par value.**
+      6. Price value of a basis point(PVBP) 
+         1. 定义：the money change in full price of a bond when its YTM changes by one basis point(0.01%).
+         2. $$PVBP = \frac{P_- - P_+}{2}$$
+   2. **Curve duration**
       1. 定义：**Senstivity of bond price to a benchmark yield curve.**
       2. Effective duration 有效久期
+      3. $$EffDur = \frac{P_- - P_+}{2 * (\% \Delta Curve) * P_0}$$
+      4. 用途：
+         1. Measures interest rate risk in terms of a **parallel shif** in the benchamrk yield curve(△Curve).
+         2. Used for bonds **with embedded option due to uncertain future cash flow and absence of well-defined IRR(YTM).**
+   3. Key rate duration/partial duration 关键久期、部分久期（Sensitivity to yield at specific maturity）--非平移
+   4. Properties of bond duration 债券的期限特性
+      1. Longer time-to-maturity usually leads to higher duration.
+      2. Higher coupon rate leads to lower duration.
+      3. Higher yield-to-maturity leads to lower duration.
+      4. Embedded call option 
+         1. r下降，导致更低的久期
+      5. Embedded put option 
+         1. r升高，导致更低的久期
+   5. Bond portfolio duration(two methods)
+      1. method1: the weighted average of time to receipt of the aggregate cash flow.
+      2. method2: the weighted average of the individual bond durations
+         1. $$Portfolio duration = w_1D_1 + w_2D_2 + ... + w_nD_n$$
+         2. Limitations: implicitly **assume a parallel shif** in the yield curve.
 4. Convexity
-5. Interest rate risk
+   1. 久期是价格相对于利率的敏感度，凸度是久期相对于利率的敏感度。
+   2. The "second-order" effect of the price-yield curve.
+   3. $$\%\Delta Price^{Full} \approx (-ModDur*\Delta Yield) + [\frac{1}{2}*Con*(\Delta Yield)^2]$$
+   4. $$ApproxCon = \frac{P_- + P_+ - 2P_0}{(\Delta Yield)^2 * P_0}$$
+5. Money convexity 美元凸度
+   1. $$MoneyCon = Convexity * Price^{Full}$$
+6. Effective convexity 有效凸度
+   1. 定义：Is a curve convexity statistic that measures the second-order effect of a change in a benchmark yield curve.
+   2. $$EffCon = \frac{P_- + P_+ - 2P_0}{P_0 * (\Delta Curve)^2}$$
+   3. **Callable bonds** often have **negative convexity**,especially when interest rates are **low**.
+   4. **Putable bonds** often have higher **positive convexity**, especially when interest rates are **high**.
+7. Benefits of greater convexity
+   1. The more convex bond outperforms the less convex bond 涨多跌少
+8. Properties of bond convexity
+   1. The factors that leads to greater convexity are the same as for duration.
+      1. Longer time-to-maturity
+      2. Lower coupon rate
+      3. Lower yield-to-maturity
+   2. For bonds with same duration,现金流越分散，凸度越大。
+9.  Interest rate risk
+    1.  Term structure of yield volatility(波动利率的期限结构)
+        1.  The bond price changes are products of two factors
+            1.  $$\% \Delta Price \approx -ModDur * \Delta Yield $$
+        2.  Shorter-term bond may have more price volatility than a long-term bond because of higher yield volatility.
+    2. The investment horizon for which coupon reinvestment risk and market price risk offset each other.
+    3. Duration gap
+       1. DG = MacDur - Investment horizon
+          1. DG < 0,reinvestment dominates market price risk.
+          2. DG > 0,market price risk dominates reinvestment risk.
+10. Credit and liquidity spread 信用流动性利差
 
 ## Fundamentals of Credit Analysis
+1. Credit risk and credit rating
+   1. Default risk/default probability
+   2. Loss severity/Loss given default
+   3. Expected Loss = Default probability * Loss severity
+   4. Recovery rate 
+      1. Loss severity(损失严重程度) = 1 - Recovery rate
+2. Credit-related risk
+   1. Spread risk
+      1. Credit migration risk信用迁移风险/downgrade risk降级风险
+      2. Market liquidity risk
+   2. Seniority ranking 资历排名
+   3. Notching 评级微调
+3. Risks in relying on agency ratings
+   1. credit ratings can be very dynamic
+   2. not infallible(不靠谱)
+   3. lag market pricing
+   4. 特殊的事件风险
+4. Credit analysis
+   1. 4C
+      1. Capacity 能力
+      2. Collateral 抵押物
+      3. Covenants 条款
+      4. Character 质量分析
+   2. Yield spread
+      1. Yield spread = Credit spread + liquidity premium
+   3. Special consideration in credit analysis
+   4. High yield debt
+   5. Sovereign debt
+   6. Municipal debt 市政债务
 
