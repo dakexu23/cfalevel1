@@ -207,7 +207,6 @@
 
     ![图 5](images/1522c1227c248a0e06a18f24f014e2214334a50f56e3b47c83f87ce892a1631d.png)  
 
-
 ### Industry Concentration Simpler Measures 行业集中度
 
 1. N firm concentration ratio(N公司集中值)
@@ -222,11 +221,172 @@
       2. 没有考虑需求弹性；
    2. 计算
 
-
-
-## 宏观经济学
+# 宏观经济学
 
 ## Aggregate output,Prices,and Economic Growth
+
+### Measurement of GDP
+
+1. Aggregate output,income and expenditure
+   1. Aggregate output(AO) 总产出
+   2. Aggregate income(AI) 总收入
+   3. Aggregate expenditure(AE) 总支出
+   4. AO = AI = AE
+2. Gross domestic product(GDP)
+   1. key points of GDP
+      1. **In a given period of time**
+      2. Newly produced **goods and services**
+      3. **Market value**
+      4. **Excettions**: rent of own house,government services.
+      5. Final **goods ans services.**
+   2. Exclued:
+      1. 二手商品
+      2. 失业补助金
+      3. 正在生产的商品
+      4. The value of labor not sold
+      5. Underground economy 地下经济
+3. GDP deflator 国内成产总值平减指数
+   1. Nominal GDP 名义GDP
+      1. $$Nominal\ GDP_t = \displaystyle\sum^N_{i=1} P_{i,current\ year} * Q_{i,current\ year} $$
+   2. Real GDP 实际GDP
+      1. $$Real\ GDP_t = \displaystyle\sum^N_{i=1} P_{i,base\ year} * Q_{i,current\ year} $$
+   3. GDP deflator GDP平减指数
+      1. $$GDP\ deflator = \frac{Nominal\ GDP}{Real\ GDP} * 100$$
+4. GDP calculation
+
+   1. $$GDP = C + I + G + ( X - M )$$
+      1. C: consumer spending on final goods and services 消费者消费
+      2. I: gross private domestic investment and changes in inventory(inventory investment) 私营企业投资
+      3. G: government spending on final goods and services 政府支出
+      4. X: exports （出口）
+      5. M: imports (进口)
+
+   2. Using the income approach
+      1. $$GDP = National\ Income + CCA + SD$$
+   3. Saving,investment,fiscal balance and trade balance
+      1. 支出方法：
+         1. $$GDP = C + I + G + (X-M)$$
+      2. 收入法
+         1. $$GDP = C + S + T$$
+         2. C: consumer spending
+         3. S: household and business savings
+         4. T: taxes
+      3. $$S-I = (G-T)+(X-M) = fiscal\ balance + trade\ balance$$
+         1. G-T> 0,government deficit;else,government surplus;
+
+         2. X-M>0,trade surplus;else deficit(亏空);
+
+### IS and LM curve
+
+1. IS curve
+   1. Aggregate income(AI）= Aggregate expenditure(AE)
+   2. C + S + T = C + I + G + (X - M)
+   3. S = I + (G - T) + (X - M)
+   4. 假设G-T 和 X-M没有发生任何变化，那么：
+      1. $$S(Y) = I(r)$$
+      2. IS CURVE：
+         1. 定义：IS curve presents an **inverse** relationship between income and real interest rate.
+         2. ![图 7](images/0a060878679e9eea79113494e629aaec881a9708ca7df56c6625bee637ea5e96.png)  
+
+2. LM curve
+   1. Quantity theory of meony(货币数量理论)
+      1. MV = PY
+         1. M: Nominal money supply 名义货币供给
+         2. V: Velocity of money in transactions 货币的流转速率
+         3. P: Price level 物价水平
+         4. Y: Real income/expenditure/output 实际GDP
+      2. Money neutrality（货币中性理论）: 增加货币供给量，仅仅增加物价水平，不能增加总产出。
+3. Keynes's demand for money theory
+   1. $$M_s/P = M_d(r,Y)$$
+   2. Transactions demand for money（交易性货币需求）
+   3. Precautionary demand for money (预防性货币需求)
+   4. Speculative demand for money (投机性货币需求)
+   5. LM curve
+   ![图 9](images/e9b6fd93e6a96f21ea3f195a78fc9b8c8c0f7cabc4d78b9670734d408e3a7bc7.png)  
+      1. Md(r,Y) increases with the decrease of real interest rate and the rise of GDP.
+      2. LM curve presents a **positive** relationship between income and real interest rate.
+
+4. IS-LM curve
+   1. IS-LM curve
+    ![图 10](images/bae28961059481333f97067c877ac891b9e11e6a23bd51437962bf0e079f14f5.png)  
+   2. The **intersection** of the IS and LM curves determines the combination of real output and real interest rate.
+
+### AD and AS curve
+
+1. AD curve
+   1. The aggregate demand curve 总需求曲线
+   2. ![图 11](images/587fd4d72fc9b14df67441b9ec94deae7a246cdd36668a417a664d009a3d25f7.png)  
+
+2. AS curve
+   1. Very short run(VSR): 超短期，价格不会变化；
+   2. Short run: curve is upward sloping；短期P上升，总产出上升；
+   3. Long run: 成本上升，物价上升，成本和物价相互抵消，不会影响总产出；
+      1. **perfectly inelastic**
+      2. The level of output as potential GDP（潜在GDP）
+      3. Full emplyment GDP(充分就业GDP)
+      4. Natual rate of unemployment(自然失业率)
+   4. Factors that shift the short-run aggregate supply(不好的都是向做移).
+
+### Macroeconomic EQUILIBRIUM
+
+Types of macroeconomic equilibrium
+
+1. Long-run full employment(充分就业)
+   1. Under long-run full employment euqilibrium,the economy is at potential real GDP.
+   2. Both labor and capital are fully employed.
+   3.
+   ![图 12](images/25fc886e2035aa77e2e829417017eef973aee1638847c23edcb8a0d13dd9c6c7.png)  
+
+2. Short-run recessionary gap（衰退差）
+   1. 实际GDP < 潜在GDP
+   2. 失业率 > 自然失业率
+   3. AD线向左移
+   4. Policy choice:
+      1. do nothing since there's a **self-correcting(自我修复)** mechanism.
+      2. **Fiscal and monetary** policy to shift AD to the right.
+   5. Investment implications of a decrease in AD
+      1. 减少投资周期股，投资防御性企业
+      2. 减少投资大宗商品
+      3. 投资投资级债券，减少投资投机级别债券
+      4. 投资长期债，利率下降，长期债涨幅更多；
+3. Short-run inflationary gap（通胀差）
+   1. Caused by ian increase in AD.
+   2. 实际GDP > 潜在GDP
+   3. 失业率 < 潜在自然失业率
+   4. Policy choice:
+      1. do nothing since there's a **self-correcting(自我修复)** mechanism.
+      2. Fiscal and monetary policy to shift AD to the left.
+   5. Investment implications of an incrase in AD
+      1. 增加投资周期股，减少投资防御股
+      2. 增加投资大宗商品
+      3. 减少投资投资级别固定债券，减少投资长期债券；加息，通常意味着，bond下跌；
+4. Short-run stagflation（滞胀差）经济停滞，物价上涨
+   1. Caused by a decrase in AS
+   2. High inflation
+   3. 失业率>潜在失业率
+   4. policy choice:
+      1. Governement is least likely to interfere.
+      2. No short-term economic policy is thought to be effective.
+
+   5. Investment implications of a decrease in AS
+      1. 减少投资固定收益
+      2. 减少投资股票
+      3. 减少投资大宗商品
+
+### Economic Growth and Sustainability
+
+1. The production function and potential GDP
+   1. Production function:  
+        $$Y = Af(L,K) $$
+      1. A: total factor productivity(TFP) 全要素生产率或者科技水平
+      2. $$Protential\ GDP\ growth = Technology\ growht + W_L(Growth\ in\ labor) + W_C(Growth\ in\ capital)$$
+   2. Output per worker: Y/L = Af(K/L)
+      1. $$Per\ Capital\ GDP\ grwoth = Technoglogy\ growth + W_C(Growth\ in\ capital-to-labor\ ratio)$$
+2. Measures of sustainable growth
+   1. Labor productivity: 一个工人在一个小时产出的商品和服务
+   2. Labor productivity = real GDP / aggregate hours
+   3. Potential GDP = aggregate hours worked * labor productivity
+   4. **Protential GDP growth rate = long-term growth rate of labor force + long-term labor productivity growth rate**
 
 ## Understanding Business Cycles
 
