@@ -418,7 +418,7 @@
    5. Bond portfolio duration(two methods)
       1. method1: the weighted average of time to receipt of the aggregate cash flow.
       2. method2: the weighted average of the individual bond durations
-         1. $$Portfolio duration = w_1D_1 + w_2D_2 + ... + w_nD_n$$
+         1. $$Portfolio\ duration = w_1D_1 + w_2D_2 + ... + w_nD_n$$
          2. Limitations: implicitly **assume a parallel shif** in the yield curve.
 4. Convexity
    1. 久期是价格相对于利率的敏感度，凸度是久期相对于利率的敏感度。
