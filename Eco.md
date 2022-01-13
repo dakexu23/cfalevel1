@@ -390,6 +390,43 @@ Types of macroeconomic equilibrium
 
 ## Understanding Business Cycles
 
+1. Characteristics and theories of business cycle
+   1. 商业周期：trough（低谷）、expansion（扩张）、peak（顶峰）、contraction（衰退）
+   2.  
+   ![图 1](images/6d2a83e0c2d5b42c136ce7059bf85e06be29baf7f0261b0c7944a327019c6bf3.png)  
+
+   ![图 3](images/e0cb9ac6107abea944ea04fcf74c5ab74faf6708c4160dd9323feb26a1b2cbdc.png)  
+
+2. Theories of the business cycle
+
+      School| Cause of business cycle | Reconmened policy
+      ---------|----------|---------
+      Neoclassical 新古典主义 | Technology | Do nothing full-employment equilibrium
+      Keynesian 凯恩斯主义 | Business expectations **downward sticky wages** | Fiscal or monetary policy
+      New Keynesian  | Same as Keynesian,but other input prices also downward sticky | Fiscal or monetary policy
+      Monetarist 货币注意|Inapppropriate changes in money supply growth rate | Steady and predictable growth rate of money supply
+      Austrian 奥地利学派 | Government intervention干涉 | Don't force interest rates to artificially low level
+      New classical 新古典主义 | Technology and external shocks | Don't intervene to counteract（对抗） business cycles
+
+3. Unemployment
+
+   1. Related concepts
+   2. Measure of unemployment
+   3. Three types of unemployment
+   4. Types of unemployment and full employment
+
+4. Inflation
+   1. Inflation(通货膨胀概念)
+   2. Inflation measurement
+   3. Cost-push inflation(成本推动通胀)
+   4. Demand-pull inflation(需求拉动通胀)
+
+5. Economic Indicators
+
+   1. Leading indicators
+   2. Coincident indicators(同步指标)
+   3. Lagging indicators(滞后指标)
+
 ## Monetary and fiscal Policy
 
 # 国际贸易、汇率、资本流动
