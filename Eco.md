@@ -404,33 +404,264 @@ Types of macroeconomic equilibrium
       Neoclassical 新古典主义 | Technology | Do nothing full-employment equilibrium
       Keynesian 凯恩斯主义 | Business expectations **downward sticky wages** | Fiscal or monetary policy
       New Keynesian  | Same as Keynesian,but other input prices also downward sticky | Fiscal or monetary policy
-      Monetarist 货币注意|Inapppropriate changes in money supply growth rate | Steady and predictable growth rate of money supply
+      Monetarist 货币主义|Inapppropriate changes in money supply growth rate | Steady and predictable growth rate of money supply
       Austrian 奥地利学派 | Government intervention干涉 | Don't force interest rates to artificially low level
       New classical 新古典主义 | Technology and external shocks | Don't intervene to counteract（对抗） business cycles
 
 3. Unemployment
 
    1. Related concepts
+      1. Employed
+      2. Unemployed
+      3. Labor force = employed + unemployed
+      4. Underemployed (为充分就业)
+      5. Discouraged worker(灰心气馁的工人)
+      6. Voluntarily unemployed（自愿失业） -- outside of labor force and unemployed people
    2. Measure of unemployment
+      1. **Unemployment rate = number of unemployed / labor force**
+      2. **Activity ratio(Participation ratio) 劳动参与率= labor force /working-age population**
    3. Three types of unemployment
-   4. Types of unemployment and full employment
+      1. Fritional unemployment(摩擦性失业) 雇员和雇主暂时无法匹配
+      2. Structural unemployment（结构性失业）经济周期发生变化，需要工人掌握新的技能
+      3. Types of unemployment and full employment（周期性失业）results from changes in economic growht.
+   4. Full employment: no cyclical unemployment（无周期性失业），结构性和摩擦性事业依然存在。
 
 4. Inflation
    1. Inflation(通货膨胀概念)
+      1. 定义：a **sustained rise持续上升** in the overall level of prices.
+      2. Inflation rate：**the percentage change** in a price index the speed of overall price level movements.
+      3. Hyperinflation(恶性通货膨胀): 一个极端的通货膨胀
+      4. Stagflation(滞涨)：**一个高的通货膨胀水平和一个高的失业率以及下滑的经济。**
+      5. deflation(通货紧缩)：价格下降，负的通货膨胀率
+      6. disinflation(通货收缩)：**一个正的但是下降的通货膨胀率**
    2. Inflation measurement
+      1. Lasperyres index(拉斯拜尓指数)
+         1. 假设销量不发生变化，只考虑当前价格发生的变化
+         2. $$Laspeyres index = I_L = \frac{\sum Q_0*P_1}{\sum Q_0*P_0}$$
+      2. Paasche index(派许指数)
+         1. 假设当前的销量不发生变化，拿当前的价格和过去的价格做对比
+         2. $$Paasche index = I_p = \frac{\sum Q_1*P_1}{\sum Q_1*P_0}$$
+      3. Fisher index(费雪指数)
+         1. 拉斯拜尔指数和派许指数的平均
+      4. CPI(消费者购买)
+         1. CPI = (cost of basket at current prices)/(Cost of basket at base period prices)
+      5. PPI(公司购买)
+      6. Headline inflation(整体通胀)：price indexes that include all goods an services.
+      7. **Core inflation(核心通胀)：price indexes that exclude food and energy.**
+         1. 通常用于做决策
    3. Cost-push inflation(成本推动通胀)
+      1. 原因：**价格上涨导致AS线左移（不好的事情发生）**
+      2. 失业率大于自然失业率；失业率大于自然失业率
    4. Demand-pull inflation(需求拉动通胀)
+      1. 原因：**需求增长，AD线右移。**
+      2. 特点：实际GDP>潜在GDP；失业率小于自然首页率
 
 5. Economic Indicators
 
    1. Leading indicators
+      1. 每周平均新增的事业补助申请
+      2. S&P Stock index
+      3. M2
+      4. Interest rate spread between 10-year treasury yields and overnight borrrowing rates(federal funds rate)
    2. Coincident indicators(同步指标)
    3. Lagging indicators(滞后指标)
+      1. inventory-sales ratio
+
+   ![图 4](images/ea7f265121d65d6f5a1c74f9aba0ec773b9ce12a0e25158210081173db08bcd9.png)  
 
 ## Monetary and fiscal Policy
 
-# 国际贸易、汇率、资本流动
+### Monetary policy
 
-### International Trade and Capital Flows
+1. Monetary policy 货币政策
+   1. 定义：**Central bank 中央银行** activities that are directed toward **influencing the quantity of money and credit in an economy.**
+2. Fiscal policy
+   1. 定义：The government's decisions about **taxation** and **spending**.
+   2. Budget surplus(预算盈余)
+   3. Budget deficit（预算赤字）
 
-### Currency Exchange Rates
+3. Money creation process
+   1. money multipllier(货币乘数) = 1 / reserve requirement(10%)
+   2. Money created = new deposit * money multiplier
+   3. Money created = new deposit * reserve requirement
+
+4. The supply and demand for money
+   1. 货币的供应量是受到中央银行的影响，并不受到利率的影响。
+
+5. Fisher effect（费雪效应）
+   1. 定义：the nominal interest rate is simply **the sum of the real interest rate** and **expected inflation.**
+   2. To account for uncertainty of future,the nominal interest rate is comprised of :
+      1. real required rate of return
+      2. expected inflation
+      3. risk premiums
+
+6. Cost of expected inflation:
+   1. menu cost 菜单成本
+   2. shoe leater cost 鞋底成本
+7. Cost of unexpected inflation
+   ![图 5](images/a31f98b51a492cb551fcb7f93325a45f7ac4fa6f5e23e5dd54f2240ff092032a.png)  
+
+8. Roles and objectives of central bank
+9. Qualities of effective central banks
+   1. Independence 独立
+      1. 目标独立
+      2. 操作独立
+   2. Credibility 有信誉度
+   3. Transparency 透明度高
+
+10. Policy targeting of central bank
+    1. 利率目标
+    2. 通胀目标
+    3. 汇率目标
+
+11. Monetary policy tools 货币市场操作
+    1. Open market operations(公开市场操作)
+       1. buy bond
+       2. sell bond
+    2. Reserve requirements(准备金要求)
+
+12. policuy rate and associated 政策利率和相关操作
+13. Impact of monetary policy on the economy
+    1. Expansinonary monetary policy **trends to increase GDP**,降息以及decrease the value of local currency.
+    2. Contractionary monetary policy **treands to decrease GDP**,生息以及increase the value of local currency.
+14. Neutral interest rate(中性利率) = real trend rate of economic growth + inflation target
+15. 货币政策的局限性
+    1. Bond market vigilantes
+    2. liquidity trap
+    3. Quantitative easing（量化宽松）
+
+### Fiscal policy
+
+1. 财政政策目标：
+   1. Objectives: help manage the economy throught its influence on aggregate national output,real GDP.
+   2. Discretionary fiscal policy(相机财政政策)
+   3. Automatic stabilizers（自动稳定器）
+
+2. Fiscal policy tools
+   1. Government spending（花钱）
+      1. Transfer payment(转移支付) 纾困计划
+      2. Current governemtn spending(goods and services) 日常开支
+      3. Capital expenditure(rods,hospitals,schools) 大基建
+   2. Government revenues（收入）
+      1. Direct tax
+      2. Indirect tax
+   3. 优势：间接税优点
+   4. 劣势：直接税缺点
+
+3. Arguments against being concerned about national debt(支持)
+   1. Richardian euqivalence(李嘉图均衡)：为了offset税，将会增加储蓄；
+   2. 失业率下降
+4. Arguments for being concerned about national debt（反对）
+   1. 市场对于政府失去信心
+   2. 更高的税率
+   3. 挤出效应（crowding out effect），实体投资下降
+
+5. 财政政策的缺点
+   1. Recognition lag
+   2. Action lag
+   3. Impact lag
+
+6. Structual budget deficit(结构预算赤字)：如果一个经济体为完全就业的话，那么将会存在赤字（政府花钱很多刺激经济嘛）；
+
+## International Trade and Capital Flows
+
+### International trade
+
+1. 基本术语
+   1. Open economy
+   2. Closed economy
+   3. Free trade
+   4. Trade protection
+   5. Terms of trade(贸易比价)
+
+2. 比较优势和相对优势
+
+3. Ricardian model(李嘉图模型)：李嘉图国际贸易模型是最简单的贸易理论模型之一，它的两个核心含义是：劳动生产率的差异在国际贸易中占据重要地位；贸易模式取决于比较优势而非绝对优势。
+
+4. Heckscher-Ohlin model(赫克歇尔-俄林模型)：这个模型建立在李嘉图的比较优势理论之上，本模型建立在各国资源禀赋以及产品特性的基本差异上，赫克歇尔与奥林认为每个国家所拥有的生产要素丰富程度并不相同，不同的产品生产时所需要的生产要素也不相同，在这种情形下，一国若是生产某种产品，其密集使用了国内较为丰富的生产要素，便可以在生产此种产品时拥有比较优势。
+
+### Trade and capital restriction
+
+1. Common objectives of capital restrictions 资本管控的目标
+   1. 减少本国资产的波动性
+   2. 维护汇率
+   3. 保持本国低利率
+   4. 保护战略行业
+2. Types of trade restrictions inclued
+   1. Tariffs(关税)
+   2. Quotas(配额): 进口商品有额度限制
+   3. Export subsidies(出口补贴)
+   4. Voluntary export restraint(VER)自愿出口补贴：是政府对在特定时间段内可以出口到特定国家的某种商品的数量施加的限制。它们有时被称为“出口签证”。通常，当行业寻求保护免受来自特定国家的竞争性进口产品时，就会出现 VER。然后出口国提供 VERs 以安抚进口国并阻止其施加明确的（和不太灵活的）贸易壁垒。
+3. Tariff and import quota 关税和进口配额
+
+### Balance of Payments(BOP)
+
+1. Current account(经常账户) -- **goods and services.**
+   1. Merchandise tade 商品贸易
+   2. Services 服务
+   3. Income receipts 工资收据
+   4. Unilateral transfers 单方面转移支付
+2. Capital account(资本账户)
+   1. Capital transfers: 债务宽恕
+   2. 购买非生产的非金融资产，例如专利、版权等
+3. Financial account(金融账户) -- records investments flows.
+   1. A country's assets abroad
+   2. Foreign-owned assets in the reporting country
+4. National economic accounts and BOP
+   1. C + S + T = C + I + G + (X-M)
+   2. X - M = S - I + (T - G)
+   3. Current accont balance = X - M
+   4. $$Current account = S_p + S_g - I$$
+   5. Trade deficit 可以有哪些因素引起：
+      1. 缺少私有储蓄
+      2. 缺少政府储蓄
+      3. 投资过于旺盛
+
+### Cooperation and Trade Organization
+
+1. Free Trade Areas(自由贸易区)
+2. Customs Union(关税联盟)
+3. Comon market(共同市场)
+4. Economic Union(经济联盟)
+5. Monetary Union（货币联盟）
+
+## Currency Exchange Rates
+
+1. Terminology and Calculation
+   1. Exchange rate quotations
+      1. USD/EUR = 1.1，即1EUR等于1.1个USD。
+      2. EUR：base currency
+      3. USD: price currency
+   2. Exchange rate
+      1. Nominal exchange rate(名义汇率)： the price that we observe in the marketplace for foreign exchange.
+      2. Real exchange rate(实际汇率): adjust nominal exchange rate to **reflect the relative purchasing power between countries**.
+      3. $$Real_{d/f} = Nominal_{d/f} * \frac{P_f}{P_d}$$ 
+   3. 货币升值还是贬值
+   4. 交叉汇率计算
+   5. 即期汇率和远期汇率
+   6. Interest rate parity(IRP) 利率平价
+      1. 定义：The currency with **higher interest rate** will always trade **at a discount** in the forward market.
+      2. The percentage difference between forward and spot exchange rates is approximately equal to the difference between the two contries' interest.
+      3. $$\frac{F_{f/d}}{S_{f/d}} = \frac{1+r_f}{1+r_d}$$
+      4. $$\frac{F-S}{S} = \frac{1+r_f}{1+r_d} -1 \approx r_f - r_d $$
+
+   7. Currency regime 汇率制度
+      1. No separate legal tender 例如巴拿马
+      2. Currency board arrangement(货币局制度) 例如香港
+      3. Fixed parity
+         1. Conventional fixed peg arrangement(传统固定钉住安排)，和另外的货币有+/-1 %区间；
+      4. Target zone（有一个区间），up to +/- 2% percent around the parity.
+      5. Active and passive crawling pegs 主动和被动爬行钉
+         1. Active: manipulate the expectations of inflation
+         2. Passwive: adjust exchange rate based on inflation rate
+      6. Fixed parity with crawling bands
+      7. Managed float(管理浮动): floating with government intervention(without explicit target 没有明确的目标).
+      8. Independently floating rates(独立浮动)：exchange rate is **left to market determination.**
+2. Exchange Rate and Trade balance
+   1. Elasticties approach 弹性法：进出口方至少有一方有弹性
+   2. J-curve
+      1. 短期恶化
+      2. 长期改善
+   3. Absorption approach 吸收理论
+      1. Excessive capacity-> 贬值改善赤字
+      2. No excessive capacity-> 贬值无效
